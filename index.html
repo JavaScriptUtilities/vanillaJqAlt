@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html lang="fr-FR">
+    <head>
+    <meta charset="UTF-8" />
+    <title>Vanilla - jqAlt</title>
+    <script src="js/vanilla-jqalt-core.js"></script>
+    <script src="js/vanilla-jqalt-classes.js"></script>
+    <script src="js/vanilla-jqalt-events.js"></script>
+    </head>
+    <body>
+        <h1><span>Vanilla</span> jqAlt v 0.0.1</h1>
+        <script>
+        jqAlt('h1').addClass('test').on('click', 'span',function(e){
+            e.preventDefault();
+        });
+        </script>
+
+    </body>
+</html>
